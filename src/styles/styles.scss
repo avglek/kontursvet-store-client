@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@forward "theme-color";
+@use "theme-color" as theme-color;
+
+html, body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  background: theme-color.$primary-background;
+}

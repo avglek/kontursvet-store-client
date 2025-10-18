@@ -1,0 +1,6 @@
+@use 'styles' as g;
+:host{
+  display: flex;
+  flex-direction: column;
+  color: g.$primary-color;
+}
