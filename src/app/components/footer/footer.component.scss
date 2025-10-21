@@ -1,0 +1,12 @@
+@use 'styles' as s;
+
+.wrapper {
+  width: 100%;
+  height: s.$footer-height;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', serif;
+}

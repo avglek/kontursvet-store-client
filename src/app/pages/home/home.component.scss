@@ -1,6 +1,6 @@
 @use 'styles' as g;
-:host{
+.wrapper {
   display: flex;
   flex-direction: column;
-  color: g.$primary-color;
+  height: 2000px;
 }

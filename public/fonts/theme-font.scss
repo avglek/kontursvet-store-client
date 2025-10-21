@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Montserrat'; /* Choose a descriptive name for your font */
+  src: url('/fonts/Montserrat-VariableFont_wght.woff') format('woff');
+  font-weight: normal; /* Adjust based on the font style */
+  font-style: normal; /* Adjust based on the font style */
+  font-display: swap; /* Recommended for better performance and user experience */
+}
+
+@font-face {
+  font-family: 'OpenSans'; /* Choose a descriptive name for your font */
+  src: url('/fonts/OpenSans-VariableFont_wdth.woff') format('woff');
+  font-weight: normal; /* Adjust based on the font style */
+  font-style: normal; /* Adjust based on the font style */
+  font-display: swap; /* Recommended for better performance and user experience */
+}

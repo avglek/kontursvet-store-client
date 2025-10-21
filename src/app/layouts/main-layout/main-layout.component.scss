@@ -1,0 +1,20 @@
+@use 'styles' as s;
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+}
+.footer {
+  width: 100%;
+}
+.content {
+  position: relative;
+  width: s.$app-width;
+  margin: s.$header-height auto;
+}
