@@ -1,0 +1,18 @@
+@use 'styles' as s;
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.inline_svg {
+  width: 24px;
+  height: 24px;
+  padding-right: 14px;
+  fill: s.$primary-color;
+  :hover {
+    cursor: pointer;
+    fill: s.$primary-accent;
+  }
+}
