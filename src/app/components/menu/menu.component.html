@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <nav>
+    @for (item of menu; track item) {
+      <span class="link">
+        <a routerLink="{{ item.link }}">{{ item.name }}</a>
+      </span>
+    }
+  </nav>
+</div>

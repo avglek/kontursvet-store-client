@@ -1,0 +1,25 @@
+@use 'styles' as s;
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  :hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 42px;
+  height: 42px;
+  color: s.$primary-accent;
+  margin-right: 15px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+}

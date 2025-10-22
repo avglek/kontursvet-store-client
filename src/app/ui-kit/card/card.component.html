@@ -1,0 +1,10 @@
+<div class="ui-card">
+  <div class="ui-card-item">
+    <img [src]="image" [alt]="alt" />
+    <div class="description">{{ text }}</div>
+    <div class="price">{{ price }} {{ currency }}</div>
+  </div>
+  <div class="action">
+    <app-ui-button [title]="buttonTitle" />
+  </div>
+</div>

@@ -1,0 +1,17 @@
+@use '../../../styles/styles' as g;
+@use 'sass:color';
+
+.ui-button {
+  user-select: none;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid g.$primary-color;
+  border-radius: 4px;
+  background: g.$primary-background;
+  color: g.$primary-color;
+  font-family: 'Montserrat', serif;
+}
+:hover {
+  cursor: pointer;
+  background-color: color.scale(g.$primary-background, $lightness: 15%);
+}

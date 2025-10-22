@@ -1,0 +1,24 @@
+@use 'styles' as s;
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  padding-right: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+
+  a {
+    color: s.$primary-color;
+    text-decoration: none;
+  }
+
+  :hover {
+    color: s.$primary-accent;
+    cursor: pointer;
+  }
+}

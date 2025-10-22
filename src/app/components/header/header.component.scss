@@ -1,0 +1,23 @@
+@use 'styles' as s;
+
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+  height: s.$header-height;
+  border-bottom: 1px solid white;
+  background: s.$primary-background;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}

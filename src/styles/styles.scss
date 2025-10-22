@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@forward 'theme-color';
+@forward 'theme-font';
+@forward 'constants';
+@use 'theme-color' as theme-color;
+@use 'theme-font';
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: theme-color.$primary-background;
+  color: theme-color.$primary-color;
+}
