@@ -1,0 +1,12 @@
+<div class="wrapper">
+  @for (category of categories; track category.id) {
+    <div class="wrapper-item">
+      <app-ui-category-card
+        [title]="category.name"
+        [description]="category.description"
+        [image]="`img/category/${category.imageUrl}`"
+        (click)="onClick(category.id)"
+      />
+    </div>
+  }
+</div>
